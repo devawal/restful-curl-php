@@ -2,7 +2,7 @@
     "name": "devawal/restful-curl",
     "description": "Restful CURL for PHP application",
     "keywords": [
-        "curl", "restfull api", "restfull api php", "curl request", "restful curl post", "restfull api call php", "rest api call php", "rest curl request", "rest curl post php"
+        "curl", "restfull api", "restfull api php", "curl request", "restful curl post", "restfull api call php", "rest api call php", "rest curl request", "rest curl post php", "rest api php"
     ],
     "homepage": "https://github.com/devawal/restful-curl-php",
     "license": "MIT",
