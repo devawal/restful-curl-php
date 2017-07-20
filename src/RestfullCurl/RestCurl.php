@@ -19,7 +19,7 @@ class RestCurl
      * @param array $json_post          Set true if request data is json
      * @param boolean $header           Request header data. Default Content-Type:application/json
      * @param boolean $object
-     * @return object
+     * @return object|array
      */
     public static function get($url, $parameters = null, $json_post = false, $header = array('Content-Type:application/json'), $object = true)
     {
@@ -35,7 +35,7 @@ class RestCurl
      * @param array $json_post          Set true if request data is json
      * @param boolean $header           Request header data. Default Content-Type:application/json
      * @param boolean $object
-     * @return object
+     * @return object|array
      */
     public static function post($url, $parameters = null, $json_post = false, $header = array('Content-Type:application/json'), $object = true)
     {
@@ -51,7 +51,7 @@ class RestCurl
      * @param array $json_post          Set true if request data is json
      * @param boolean $header           Request header data. Default Content-Type:application/json
      * @param boolean $object
-     * @return object
+     * @return object|array
      */
     public static function put($url, $parameters = null, $json_post = false, $header = array('Content-Type:application/json'), $object = true)
     {
@@ -67,7 +67,7 @@ class RestCurl
      * @param array $json_post          Set true if request data is json
      * @param boolean $header           Request header data. Default Content-Type:application/json
      * @param boolean $object
-     * @return object
+     * @return object|array
      */
     public static function patch($url, $parameters = null, $json_post = false, $header = array('Content-Type:application/json'), $object = true)
     {
@@ -83,7 +83,7 @@ class RestCurl
      * @param array $json_post          Set true if request data is json
      * @param boolean $header           Request header data. Default Content-Type:application/json
      * @param boolean $object
-     * @return object
+     * @return object|array
      */
     public static function options($url, $parameters = null, $json_post = false, $header = array('Content-Type:application/json'), $object = true)
     {
@@ -99,7 +99,7 @@ class RestCurl
      * @param array $json_post          Set true if request data is json
      * @param boolean $header           Request header data. Default Content-Type:application/json
      * @param boolean $object
-     * @return object
+     * @return object|array
      */
     public static function delete($url, $parameters = null, $json_post = false, $header = array('Content-Type:application/json'), $object = true)
     {
@@ -115,7 +115,7 @@ class RestCurl
      * @param array $json_post          Set true if request data is json
      * @param boolean $header           Request header data
      * @param boolean $object
-     * @return object
+     * @return object|array
      */
     public static function restClient($url, $method, $parameters, $json_post, $header, $object)
     {

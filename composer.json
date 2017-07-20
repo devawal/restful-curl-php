@@ -1,11 +1,13 @@
 {
     "name": "devawal/restful-curl",
     "description": "Restful CURL for PHP application",
+    "homepage": "https://github.com/devawal/restful-curl-php",
     "license": "MIT",
     "authors": [
         {
             "name": "Abdul Awal",
-            "email": "awal.ashu@gmail.com"
+            "email": "awal.ashu@gmail.com",
+            "homepage": "https://abdulawal.me"
         }
     ],
     "minimum-stability": "dev",
