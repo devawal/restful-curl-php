@@ -16,19 +16,19 @@ object|array RestCurl::get(string $url, array $parameters, boolean $json_post, a
 
 ### Parameters
 
-url
+url:
     Request URL
     
-parameters
+parameters:
     Request parameters
     
-json_post
+json_post:
     If the request parameters is json
     
-header
+header:
     Request with header
     
-object
+object:
     If response needs to be object
 
 ### Usage
