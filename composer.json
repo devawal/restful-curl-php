@@ -13,7 +13,7 @@
             "homepage": "https://abdulawal.me"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "1.0.1",
     "require": {
         "php": ">=5.6.4"
     },
