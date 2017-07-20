@@ -20,11 +20,11 @@ object|array RestCurl::get(string $url, array $parameters, boolean $json_post, a
     
 * parameters: Request parameters
     
-*json_post: If the request parameters is json
+* json_post: If the request parameters is json
     
-*header: Request with header
+* header: Request with header
     
-*object: If response needs to be object
+* object: If response needs to be object
 
 ### Usage
 
