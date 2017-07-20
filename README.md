@@ -2,7 +2,7 @@ Restful CURL for PHP application
 
 ### Install
 
-It's recommended that you use [Composer](https://getcomposer.org/) to install Slim.
+It's recommended that you use [Composer](https://getcomposer.org/) to install restful-curl-php
 
 ```bash
 $ composer require devawal/restful-curl
